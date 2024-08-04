@@ -26,7 +26,7 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9",
+        ? "postgresql://flash_92ff_user:vWg11ZiipbT6FAxrJ5G9OcPcSdqtxYs7@dpg-cqm0rv3v2p9s73dh1210-a.oregon-postgres.render.com/flash_92ff" : "postgresql://flash_92ff_user:vWg11ZiipbT6FAxrJ5G9OcPcSdqtxYs7@dpg-cqm0rv3v2p9s73dh1210-a.oregon-postgres.render.com/flash_92ff",
     /* new Sequelize({
      dialect: 'sqlite',
      storage: DATABASE_URL,
